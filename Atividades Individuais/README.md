@@ -27,6 +27,60 @@ https://github.com/klaytoncastro/idp-machinelearning/tree/main/nlp
 
 <details>
 
+# Análise do Air Quality Dataset
+
+Este repositório contém um notebook em Python com a análise exploratória de dados e aplicação de técnicas de Machine Learning no **Air Quality Dataset**, como parte das atividades práticas de aprendizado.
+
+## Estrutura do Repositório
+
+- **`Airquality_Felipe_Barroso.ipynb`**: Notebook principal contendo todas as etapas do projeto.
+- **`AirQualityUCI.csv`**: Arquivo com os dados originais utilizados no projeto.
+
+## Objetivo
+
+O objetivo principal deste projeto foi analisar a qualidade do ar com base em medições de gases e variáveis climáticas, além de criar modelos preditivos para estimar concentrações de CO no ar.
+
+## Etapas Realizadas
+
+1. **Carregamento e Limpeza de Dados**
+   - Importação do dataset em formato CSV.
+   - Tratamento de valores ausentes preenchendo com a mediana.
+   - Remoção de colunas irrelevantes ou não numéricas.
+
+2. **Análise Exploratória de Dados (EDA)**
+   - Geração de estatísticas descritivas.
+   - Visualizações gráficas das distribuições das variáveis.
+   - Matriz de correlação para identificar relações entre variáveis.
+
+3. **Pré-processamento**
+   - Seleção de variáveis independentes (features) e dependente (target).
+   - Divisão do dataset em conjuntos de treino e teste.
+
+4. **Modelagem de Machine Learning**
+   - Treinamento de um modelo de Random Forest para prever concentrações de CO.
+   - Avaliação do modelo com métricas:
+     - Mean Squared Error (MSE)
+     - R-squared (R²)
+
+5. **Resultados**
+   - Comparação entre os valores reais e previstos para avaliar a eficácia do modelo.
+
+6. **Conclusões**
+   - O modelo conseguiu capturar padrões relevantes no dataset, apresentando um desempenho satisfatório para predição de CO.
+
+## Ferramentas Utilizadas
+
+- **Linguagem**: Python
+- **Bibliotecas**:
+  - `pandas`
+  - `numpy`
+  - `matplotlib`
+  - `seaborn`
+  - `scikit-learn`
+
+## Observações
+
+- Certifique-se de que o arquivo `AirQualityUCI.csv` esteja no mesmo diretório do notebook ao executá-lo.
 
 </details>
 
