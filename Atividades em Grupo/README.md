@@ -66,6 +66,8 @@ A IA maximiza suas chances de vencer enquanto minimiza as chances do oponente. E
 
 </details>
 
+---
+
 ## 🧠 RNA (Redes Neurais Artificiais)
 
 <details>
