@@ -225,6 +225,60 @@ Foram aplicados e avaliados diferentes algoritmos de regressão para prever o va
 
 <details>
 
+# Análise do Mall Customers Dataset
+
+Este repositório contém um notebook em Python com a análise exploratória, pré-processamento e aplicação de algoritmos de clustering no **Mall Customers Dataset**.
+
+## Estrutura do Repositório
+
+- **`mall_customers_analysis.ipynb`**: Notebook contendo a análise completa e modelagem dos dados.
+- **`mall_customers.csv`**: Arquivo com os dados originais utilizados no projeto.
+
+## Objetivo
+
+O objetivo principal deste projeto foi agrupar clientes em clusters com base em suas características de renda anual e pontuação de gastos, utilizando técnicas de clustering.
+
+## Etapas do Projeto
+
+### 1. Análise Exploratória de Dados (EDA)
+- **Distribuição das Variáveis**:
+  - Foram analisadas distribuições das variáveis `Age`, `Annual Income (k$)` e `Spending Score (1-100)` para identificar padrões e possíveis outliers.
+- **Gráficos**:
+  - Histogramas foram criados para visualizar a distribuição de cada variável.
+
+### 2. Pré-processamento
+- **Seleção de Variáveis**: As variáveis `Annual Income (k$)` e `Spending Score (1-100)` foram escolhidas para a modelagem de clustering.
+- **Normalização**: Os dados foram normalizados usando `StandardScaler` para garantir que as variáveis estivessem na mesma escala.
+
+### 3. Modelagem com Clustering
+- **K-Means**:
+  - O método Elbow foi utilizado para determinar o número ideal de clusters (5 clusters foram selecionados).
+  - Clientes foram agrupados em clusters com base em sua similaridade.
+  - Avaliação do modelo foi feita com o Silhouette Score.
+- **DBSCAN (opcional)**:
+  - Foi aplicada uma análise complementar com DBSCAN para identificar clusters baseados em densidade.
+
+### 4. Visualização dos Clusters
+- Gráficos de dispersão foram gerados para visualizar os clusters com base nas variáveis `Annual Income (k$)` e `Spending Score (1-100)`.
+
+## Ferramentas Utilizadas
+
+- **Linguagem**: Python
+- **Bibliotecas**:
+  - `pandas`
+  - `numpy`
+  - `matplotlib`
+  - `seaborn`
+  - `sklearn`
+
+## Resultados
+
+- **Clusters Identificados**:
+  - K-Means agrupou clientes em 5 clusters distintos, com base em renda anual e comportamento de gastos.
+  - DBSCAN identificou clusters alternativos baseados em densidade (opcional).
+- **Insights**:
+  - Clientes com renda alta e alta pontuação de gastos foram agrupados em clusters específicos, destacando consumidores de alto valor.
+  - O Silhouette Score confirmou a qualidade dos clusters gerados pelo K-Means.
 
 </details>
 
