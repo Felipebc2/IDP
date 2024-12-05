@@ -2,7 +2,6 @@
 
 Reinforcement Learning: https://github.com/klaytoncastro/idp-machinelearning/tree/main/reinforcement  
 RNA (Redes Neurais Artificiais): https://github.com/klaytoncastro/idp-machinelearning/tree/main/rna  
-Rules (Regras de Associação): https://github.com/klaytoncastro/idp-machinelearning/tree/main/rules  
 
 ## 🕹️ Reinforcement Learning (Minimax)
 
@@ -147,10 +146,4 @@ O objetivo principal deste projeto foi:
 
 </details>
 
-## 🚩 Rules (Regras de Associação)
-
-<details>
-
-
-
-</details>
+---
