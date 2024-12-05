@@ -238,12 +238,8 @@ Foram aplicados e avaliados diferentes algoritmos de regressão para prever o va
 </details>
 
 ---
-# Extra
 
-
-## 🍷 Wine Quality
-**Wine Quality Dataset:**
-https://github.com/klaytoncastro/idp-machinelearning/tree/main/decision-tree
+## 💕 Sentiment Analysis
 
 <details>
 
