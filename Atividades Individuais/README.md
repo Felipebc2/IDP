@@ -155,6 +155,67 @@ O objetivo principal deste projeto foi analisar os dados de uma campanha de mark
 
 <details>
 
+# Análise do California Housing Dataset
+
+Este repositório contém um notebook em Python com a análise exploratória, pré-processamento e aplicação de modelos de machine learning no **California Housing Dataset**.
+
+## Estrutura do Repositório
+
+- **`california_housing_analysis.ipynb`**: Notebook contendo a análise completa e modelagem dos dados.
+- **`california_housing.csv`**: Arquivo com os dados originais utilizados no projeto.
+
+## Objetivo
+
+O objetivo principal deste projeto foi prever o valor médio de casas em diferentes regiões da Califórnia, utilizando variáveis como idade média das casas, número médio de quartos, ocupação média, latitude, longitude, entre outras.
+
+## Etapas do Projeto
+
+### 1. Análise Exploratória de Dados (EDA)
+- **Distribuição das Variáveis**: Analisamos as distribuições das variáveis para identificar outliers e entender características gerais do conjunto de dados.
+- **Correlação**: Exploramos as correlações entre as variáveis preditoras e a variável alvo (`MedHouseVal`).
+- **Gráficos**:
+  - Histogramas para distribuição de variáveis.
+  - Matriz de correlação para identificar relações entre as variáveis.
+
+### 2. Pré-processamento de Dados
+- **Tratamento de Valores Ausentes**: Identificação e tratamento de valores ausentes (se aplicável).
+- **Normalização**: Variáveis foram normalizadas com `StandardScaler` para garantir que todas as variáveis estivessem na mesma escala.
+- **Divisão dos Dados**: O dataset foi dividido em conjuntos de treino (80%) e teste (20%) para validação dos modelos.
+
+### 3. Modelagem
+Foram aplicados e avaliados diferentes algoritmos de regressão para prever o valor médio das casas:
+- **Regressão Linear**: Modelo básico para estabelecer uma linha de base.
+- **Árvore de Decisão**: Modelo não linear para capturar interações complexas.
+- **Random Forest**: Modelo de ensemble para melhorar a performance e reduzir overfitting.
+- **SVR (Support Vector Regressor)**: Modelo de regressão baseado no algoritmo SVM.
+- **Gradient Boosting Machines**: Implementação com `GradientBoostingRegressor`.
+
+### 4. Avaliação e Interpretação
+- **Métricas de Avaliação**:
+  - **MAE (Mean Absolute Error)**: Erro médio absoluto.
+  - **MSE (Mean Squared Error)**: Erro quadrático médio.
+  - **R² (Coeficiente de Determinação)**: Mede a proporção da variância explicada pelo modelo.
+- **Gráficos de Valores Reais x Preditos**:
+  - Para cada modelo, geramos gráficos de dispersão comparando os valores reais e os previstos.
+
+## Ferramentas Utilizadas
+
+- **Linguagem**: Python
+- **Bibliotecas**:
+  - `pandas`
+  - `numpy`
+  - `matplotlib`
+  - `seaborn`
+  - `scikit-learn`
+
+## Resultados
+
+- **Modelos Avaliados**:
+  - Regressão Linear apresentou bom desempenho como modelo inicial.
+  - Random Forest e Gradient Boosting Machines se destacaram pelo melhor equilíbrio entre bias e variância.
+- **Insights**:
+  - Variáveis como `MedInc` (Renda Média) mostraram forte correlação com o valor médio das casas.
+  - Modelos ensemble como Random Forest e Gradient Boosting são mais adequados para capturar padrões complexos.
 
 </details>
 
