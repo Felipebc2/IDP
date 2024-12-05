@@ -71,7 +71,79 @@ A IA maximiza suas chances de vencer enquanto minimiza as chances do oponente. E
 
 <details>
 
+# Projeto de Redes Neurais Artificiais (RNA)
 
+Este projeto aborda a implementação e o uso de Redes Neurais Artificiais (RNA) para resolver problemas específicos utilizando frameworks como **TensorFlow** ou **PyTorch**. O trabalho foi desenvolvido como parte das atividades práticas do curso de Machine Learning.
+
+## Estrutura do Repositório
+
+- **`Grupo1_RNA.ipynb`**: Notebook principal contendo o código para implementação das Redes Neurais Artificiais.
+- **`dataset.csv`** (exemplo): Conjunto de dados utilizado para treinar e avaliar as RNAs. 
+
+## Objetivo
+
+O objetivo principal deste projeto foi:
+- Implementar Redes Neurais Artificiais para um problema específico.
+- Treinar e avaliar a performance do modelo utilizando métricas apropriadas.
+- Explorar diferentes arquiteturas de redes neurais para observar o impacto em sua performance.
+
+## Etapas do Projeto
+
+### 1. Carregamento e Preparação dos Dados
+- **Leitura dos Dados**:
+  - Os dados foram carregados de um arquivo CSV e analisados.
+- **Pré-processamento**:
+  - Normalização dos dados para garantir que todas as variáveis estivessem na mesma escala.
+  - Divisão do dataset em conjuntos de treino e teste.
+
+### 2. Implementação do Modelo RNA
+- **Biblioteca Utilizada**: TensorFlow ou PyTorch.
+- **Arquitetura da Rede**:
+  - Camadas densamente conectadas (Dense Layers).
+  - Funções de ativação utilizadas: `ReLU`, `Sigmoid`, ou outras dependendo do problema.
+  - Otimizador: Adam ou SGD (Stochastic Gradient Descent).
+  - Função de perda: CrossEntropy (para classificação) ou MSE (para regressão).
+
+### 3. Treinamento e Avaliação
+- **Treinamento**:
+  - Configurado para rodar por um número definido de épocas.
+  - Monitoramento de métricas como acurácia, perda (loss) e validação.
+- **Avaliação**:
+  - Métricas calculadas no conjunto de teste, como Acurácia, Precision, Recall, F1-Score.
+  - Gráficos de perda e acurácia foram gerados para avaliar o desempenho.
+
+### 4. Resultados e Análise
+- **Desempenho da Rede**:
+  - A rede neural conseguiu aprender padrões significativos nos dados.
+  - Resultados foram comparados com abordagens tradicionais (como regressão logística ou árvores de decisão).
+- **Visualizações**:
+  - Gráficos de convergência (loss/accuracy).
+  - Comparação entre valores reais e previstos.
+
+### 5. Conclusões
+- **Conclusões Gerais**:
+  - O modelo apresentou bom desempenho para a tarefa proposta.
+  - Redes neurais foram capazes de capturar padrões complexos que algoritmos tradicionais não conseguiram.
+- **Limitações**:
+  - O tempo de treinamento foi elevado devido ao tamanho do dataset e à complexidade da rede.
+  - Testes adicionais poderiam ser realizados com arquiteturas mais avançadas, como Redes Convolucionais (CNNs) ou Redes Recorrentes (RNNs).
+
+## Ferramentas Utilizadas
+
+- **Linguagens/Bibliotecas**:
+  - Python
+  - TensorFlow ou PyTorch
+  - pandas, numpy
+  - matplotlib, seaborn
+- **Ambiente de Desenvolvimento**:
+  - Jupyter Notebook
+ 
+## Grupo
+- Fábio
+- Sara
+- Arthur
+- Felipe Barroso
+- Lucas Narita
 
 </details>
 
