@@ -288,6 +288,67 @@ O objetivo principal deste projeto foi agrupar clientes em clusters com base em 
 
 <details>
 
+# Análise do Iris Dataset
+
+Este repositório contém um notebook em Python com a análise exploratória, pré-processamento e aplicação de algoritmos de classificação no **Iris Dataset**.
+
+## Estrutura do Repositório
+
+- **`iris_analysis.ipynb`**: Notebook contendo a análise completa e modelagem dos dados.
+- **`iris.csv`**: Arquivo com os dados originais utilizados no projeto.
+
+## Objetivo
+
+O objetivo principal deste projeto foi classificar as espécies de flores (Setosa, Versicolor e Virginica) com base em características como comprimento e largura de sépalas e pétalas.
+
+## Etapas do Projeto
+
+### 1. Análise Exploratória de Dados (EDA)
+- **Estatísticas Descritivas**: Resumo das distribuições das variáveis.
+- **Relações entre Variáveis**:
+  - Gráficos de dispersão para identificar padrões nas variáveis.
+  - Matriz de correlação para avaliar relações entre variáveis numéricas.
+
+### 2. Pré-processamento
+- **Separação de Variáveis**: As variáveis preditoras (`sepal_length`, `sepal_width`, `petal_length`, `petal_width`) foram separadas da variável alvo (`species`).
+- **Normalização**: As variáveis preditoras foram normalizadas para melhorar o desempenho dos modelos.
+- **Divisão dos Dados**: O dataset foi dividido em conjuntos de treino (80%) e teste (20%) para validação dos modelos.
+
+### 3. Modelagem com Algoritmos de Classificação
+Foram aplicados e avaliados os seguintes algoritmos de classificação:
+- **K-Nearest Neighbors (KNN)**:
+  - Classifica os dados com base nos vizinhos mais próximos.
+- **Decision Tree**:
+  - Modelo baseado em árvores de decisão para regras interpretáveis.
+- **Random Forest**:
+  - Combina múltiplas árvores para maior precisão e redução de overfitting.
+- **Support Vector Machine (SVM)**:
+  - Separa classes com hiperplanos em espaços de alta dimensão.
+
+### 4. Avaliação do Modelo
+- **Métricas Utilizadas**:
+  - Matriz de Confusão: Mostra os acertos e erros de classificação para cada classe.
+  - Relatório de Classificação: Fornece precisão, recall e F1-Score.
+  - Acurácia Geral: Mede o percentual de predições corretas.
+- **Resultados**:
+  - Todos os modelos apresentaram alto desempenho devido à simplicidade do dataset Iris.
+  - O modelo Random Forest foi o mais robusto, com a melhor combinação de precisão e recall.
+
+## Ferramentas Utilizadas
+
+- **Linguagem**: Python
+- **Bibliotecas**:
+  - `pandas`
+  - `numpy`
+  - `matplotlib`
+  - `seaborn`
+  - `sklearn`
+
+## Resultados
+
+- **Insights**:
+  - As variáveis `petal_length` e `petal_width` têm maior correlação com a classificação das espécies.
+  - Modelos como Random Forest e SVM são ideais para lidar com problemas de classificação em datasets simples como o Iris.
 
 </details>
 
