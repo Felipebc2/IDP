@@ -18,9 +18,6 @@ https://github.com/klaytoncastro/idp-machinelearning/tree/main/clustering
 **Iris Dataset:**
 https://github.com/klaytoncastro/idp-machinelearning/tree/main/iris
 
-**Sentiment Analysis**
-https://github.com/klaytoncastro/idp-machinelearning/tree/main/nlp
-
 ---
 
 ## 🌪️ Air Quality Dataset
@@ -349,15 +346,6 @@ Foram aplicados e avaliados os seguintes algoritmos de classificação:
 - **Insights**:
   - As variáveis `petal_length` e `petal_width` têm maior correlação com a classificação das espécies.
   - Modelos como Random Forest e SVM são ideais para lidar com problemas de classificação em datasets simples como o Iris.
-
-</details>
-
----
-
-## 💕 Sentiment Analysis
-
-<details>
-
 
 </details>
 
