@@ -4,7 +4,7 @@ Reinforcement Learning: https://github.com/klaytoncastro/idp-machinelearning/tre
 RNA (Redes Neurais Artificiais): https://github.com/klaytoncastro/idp-machinelearning/tree/main/rna  
 Rules (Regras de Associação): https://github.com/klaytoncastro/idp-machinelearning/tree/main/rules  
 
-## 🕹️ Jogo da Velha com Minimax
+## 🕹️ Reinforcement Learning (Minimax)
 
 <details>
 Este projeto implementa o clássico jogo da velha utilizando o algoritmo **Minimax** para criar uma inteligência artificial (IA) capaz de jogar contra um humano. A aplicação foi desenvolvida como parte do trabalho do **Grupo 2** no estudo de algoritmos de busca em jogos.
